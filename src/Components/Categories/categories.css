@@ -1,0 +1,17 @@
+
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.category-tag {
+ 
+  padding: 5px 10px;
+  margin: 5px 0;
+
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap; 
+}

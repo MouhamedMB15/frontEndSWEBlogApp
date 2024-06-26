@@ -1,0 +1,12 @@
+
+
+#navbarNav {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.nav-item a {
+    cursor: pointer;
+}
+

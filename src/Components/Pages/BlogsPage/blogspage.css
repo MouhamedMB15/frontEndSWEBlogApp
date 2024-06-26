@@ -1,0 +1,56 @@
+
+
+.scroll-menu {
+  overflow: auto;
+  white-space: nowrap;
+  border-bottom: 1px solid #9fa2a7; 
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  padding: 10px 0; 
+}
+
+.scroll-menu p {
+  color: #111827;
+  text-decoration: none;
+  padding: 8px 16px; 
+  background-color: #e5e7eb;
+  border-radius: 8px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.scroll-menu p:hover {
+  cursor: pointer;
+  color: #1d4ed8; 
+  background-color: #d1d5db; 
+}
+
+.page-subtitle {
+  text-decoration: none;
+  color: #111827; 
+  position: relative;
+  transition: color 0.25s;
+}
+
+.page-subtitle::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #1d4ed8; 
+  transition: width 0.25s ease;
+}
+
+.page-subtitle:hover {
+  color: #1d4ed8; 
+}
+
+.page-subtitle:hover::after {
+  width: 100%;
+  left: 0;
+  background: #1d4ed8; 
+}
